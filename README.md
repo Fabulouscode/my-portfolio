@@ -43,7 +43,7 @@ I am committed to making a positive impact in the tech industry by contributing 
 ## 📬 Get in Touch
 📧 **Email**: [ulaghaondo@gmail.com](mailto:ulaghaondo@gmail.com)  
 🔗 **GitHub**: [github.com/Fabulouscode](https://github.com/Fabulouscode)  
-💼 **LinkedIn**: [[linkedin.com/in/ulagh-aondosoo-fabian](www.linkedin.com/in/ulagh-aondosoo-fabian-75a781143/))  
+💼 **LinkedIn**: [www.linkedin.com/in/ulagh-aondosoo-fabian-75a781143](https://linkedin.com/in/ulagh-aondosoo-fabian)  
 📍 **Location**: Makurdi, Nigeria  
 
 ---
@@ -51,4 +51,3 @@ I am committed to making a positive impact in the tech industry by contributing 
 If you find my work valuable, feel free to ⭐ this repository and follow me on GitHub!
 
 Thanks for visiting! 🚀
-
