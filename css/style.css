@@ -371,3 +371,14 @@ h2 em, h1 em { font-style: italic; color: var(--accent); }
 .hero > *, .project > *, .contact > *, .job > * { min-width: 0; }
 @media (max-width: 900px) { .project { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 820px) { .hero, .contact { grid-template-columns: minmax(0, 1fr); } }
+
+/* Community photo */
+.aside-photo { margin: 0 0 16px; }
+.aside-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 10px;
+}
+.aside-photo figcaption { margin-top: 8px; font-size: .74rem; color: var(--muted); }
