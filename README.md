@@ -1,51 +1,35 @@
-# Aondosoo Fabian Ulagh - Backend Software Engineer ⚙️
+# Aondosoo Fabian Ulagh — Backend Software Engineer ⚙️
 
-Welcome to my GitHub portfolio! I'm **Aondosoo Fabian Ulagh**, a passionate **Backend Software Engineer** with expertise in designing and developing scalable, high-performance systems.
+Source for my personal portfolio site: a single static page (HTML, CSS and a little vanilla JS, no build step). Open `index.html` in a browser to run it locally.
+
+📄 **CV:** [flowcv.com/resume/02odqb8uqssj](https://flowcv.com/resume/02odqb8uqssj)
 
 ## 🚀 About Me
-I specialize in backend development, focusing on building optimized architectures, solving complex problems, and implementing best coding practices for efficiency, reliability, and security. My core tech stack includes:
+Backend Software Engineer with 7+ years of experience designing and building production systems with TypeScript, NestJS, Node.js, PostgreSQL, Redis and message-driven architectures. I work on payment infrastructure, third-party integrations, distributed services, transaction processing and reconciliation. I take ownership of that work from architecture through deployment and ongoing reliability. I also mentor engineers and speak at developer community events.
 
-- **Languages & Frameworks**: PHP (Laravel), Node.js, NestJS, Express.js, TypeScript, Java (Spring)
-- **Databases**: MySQL, PostgreSQL, MongoDB (NoSQL)
-- **API Development**: RESTful APIs, GraphQL, Swagger, Postman
-- **Software Principles**: Clean Architecture, SOLID Principles, DRY, Design Patterns
-- **Version Control & Collaboration**: Git, GitHub, Agile (Scrum, Kanban)
-- **System Design & Scalability**: Microservices, Event-Driven Architecture
+## 🛠️ Featured Project: [FinStack](https://github.com/Fabulouscode/finstack)
+An open-source, production-minded NestJS fintech backend starter kit covering wallets, a double-entry ledger, payments, webhooks, FX, idempotency and reconciliation.
 
-## 💼 Professional Experience
-### **Backend Software Engineer - Glover** *(April 2022 – March 2025)*
-- Developed high-performance APIs, handling millions of secure transactions.
-- Built a subscription system for managing recurring payments efficiently.
-- Integrated deposit and withdrawal systems with third-party services like Now-Payments and Quidax.
-- Implemented caching strategies using Redis, improving API response times by **60%**.
-- Optimized MySQL queries, reducing execution times by **40%**.
-- Led API documentation efforts using Postman for seamless third-party integration.
+## 💼 Experience
+- **Lead Software Engineer, [EzzyCare](https://www.ezzycare.com/)** *(May 2025 – Present, part-time / remote)*: architecture across the healthcare platform; pricing, commission and payout logic; production incident ownership.
+- **Senior Software Engineer, [Mainstack](https://mainstack.com/)** *(Aug 2025 – Sep 2026)*: payments, refunds, chargebacks, settlements and reconciliation on NestJS, SQS/SNS, RabbitMQ and gRPC.
+- **Backend Software Engineer, [Glover](https://www.gloverapp.co/)** *(Apr 2022 – Mar 2025)*: APIs for a gift-card platform processing 1M+ transactions a month; cut response times by 60% with Redis.
+- **Backend Software Engineer, Patricia Technologies** *(Nov 2020 – Apr 2022)*: APIs for 2M+ users; RabbitMQ microservices; GitLab CI/CD that cut deployment-related downtime by 30%.
+- **Software Engineer, Valuebeam Ltd.** *(Jan 2018 – Jan 2021)*: built iSchool, a school management platform serving 20K+ students.
 
-### **Backend Software Engineer - Patricia Technologies** *(Nov 2020 – April 2022)*
-- Developed robust APIs for third-party integrations.
-- Designed scalable architectures, ensuring reliability for millions of users.
-- Implemented authentication and security measures for user transactions.
-- Automated testing, builds, and deployments using GitLab CI/CD.
-- Built event-driven services using RabbitMQ for asynchronous processing.
-
-### **Software Engineer - Valuebeam Ltd.** *(Jan 2019 – Jan 2021)*
-- Developed **iSchool**, a comprehensive school management system.
-- Designed APIs and database architectures for handling student records, exam results, and payments.
-- Refactored large portions of the codebase, reducing technical debt by **20%**.
+## 🧰 Skills
+- **Backend:** Node.js, NestJS, Express.js, TypeScript, Java, Spring Boot, PHP, Laravel, Symfony, AdonisJS
+- **Messaging & infrastructure:** RabbitMQ, AWS SQS/SNS, Redis, CI/CD
+- **Databases:** PostgreSQL, MySQL, MongoDB
+- **Architecture:** Distributed systems, microservices, event-driven architecture, Clean Architecture, SOLID, design patterns
+- **APIs:** REST, GraphQL, Swagger, Postman
 
 ## 📚 Education
-🎓 **BSc Computer Science** – Federal University of Agriculture, Makurdi *(2017 – 2021)*  
-🎓 **National Diploma in Computer Science** – Fidel Polytechnic, Gboko *(2013 – 2015)*
-
-## 🏆 My Goals
-I am committed to making a positive impact in the tech industry by contributing to open-source projects, mentoring developers, and building scalable backend systems. My focus is on delivering **high-performance applications** while maintaining **security and best practices**.
+- **BSc Computer Science**, Federal University of Agriculture, Makurdi *(2017 – 2021)*
+- **National Diploma, Computer Science**, Fidel Polytechnic, Gboko *(2013 – 2015)*
 
 ## 📬 Get in Touch
-📧 **Email**: [ulaghaondo@gmail.com](mailto:ulaghaondo@gmail.com)  
-📍 **Location**: Makurdi, Nigeria  
-
----
-### ⭐ Show Your Support!
-If you find my work valuable, feel free to ⭐ this repository and follow me on GitHub!
-
-Thanks for visiting🚀
+- 📧 [ulaghaondo@gmail.com](mailto:ulaghaondo@gmail.com)
+- 💼 [linkedin.com/in/ulagh-aondosoo-fabian-75a781143](https://www.linkedin.com/in/ulagh-aondosoo-fabian-75a781143/)
+- 🐙 [github.com/Fabulouscode](https://github.com/Fabulouscode)
+- 📍 Lagos, Nigeria
