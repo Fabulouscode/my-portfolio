@@ -52,7 +52,7 @@ form.addEventListener('submit', async (e) => {
     status.textContent = "Thanks, your message is on its way. I'll reply soon.";
   } catch {
     status.classList.add('err');
-    status.textContent = 'Something went wrong. Please email me at ulaghaondo@gmail.com instead.';
+    status.textContent = 'Something went wrong. Please email me at ulaghaondo@gmail.com or message me on WhatsApp at +234 708 642 8550 instead.';
   } finally {
     button.disabled = false;
   }
