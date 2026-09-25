@@ -29,6 +29,16 @@ const observer = new IntersectionObserver((entries) => {
 }, { rootMargin: '-40% 0px -55% 0px' });
 sections.forEach((s) => observer.observe(s));
 
+// Floating WhatsApp button: show once the hero is scrolled past, hide at the contact section
+const waFloat = document.querySelector('.wa-float');
+const inView = { hero: true, contact: false };
+const waObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => { inView[entry.target.id === 'contact' ? 'contact' : 'hero'] = entry.isIntersecting; });
+  waFloat.classList.toggle('show', !inView.hero && !inView.contact);
+});
+waObserver.observe(document.querySelector('.hero'));
+waObserver.observe(document.getElementById('contact'));
+
 // Contact form: submit to Formspree without leaving the page.
 // Without JS the form still posts normally.
 const form = document.getElementById('contact-form');
