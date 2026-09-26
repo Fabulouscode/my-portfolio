@@ -8,7 +8,7 @@ Source for my personal portfolio site: a single static page (HTML, CSS and a lit
 Backend Software Engineer with 7+ years of experience designing and building production systems with TypeScript, NestJS, Node.js, PostgreSQL, Redis and message-driven architectures. I work on payment infrastructure, third-party integrations, distributed services, transaction processing and reconciliation. I take ownership of that work from architecture through deployment and ongoing reliability. I also mentor engineers and speak at developer community events.
 
 ## 🛠️ Featured Project: [FinStack](https://github.com/Fabulouscode/finstack)
-An open-source, production-minded NestJS fintech backend starter kit covering wallets, a double-entry ledger, payments, webhooks, FX, idempotency and reconciliation.
+An open-source, production-minded NestJS fintech backend starter kit: wallets, a double-entry ledger, payments through Paystack and Stripe, FX, refunds, payouts that are never sent twice, fees, velocity limits, daily reconciliation, signed webhooks and staff tooling. [v0.1.0](https://github.com/Fabulouscode/finstack/releases/tag/v0.1.0) is released, with CI, 770 automated tests and [29 documented design decisions](https://github.com/Fabulouscode/finstack/tree/main/docs/adr).
 
 ## 💼 Experience
 - **Lead Software Engineer, [EzzyCare](https://www.ezzycare.com/)** *(May 2025 – Present, part-time / remote)*: architecture across the healthcare platform; pricing, commission and payout logic; production incident ownership.

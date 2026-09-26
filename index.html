@@ -116,18 +116,29 @@
     </div>
     <div class="project">
       <div class="project-text">
-        <p>FinStack is an open-source fintech backend starter kit built with NestJS, TypeScript and PostgreSQL. It packages the financial infrastructure I've rebuilt at several companies (wallets, a double-entry ledger, payments, webhooks, FX, idempotency and reconciliation) so teams can focus on their product.</p>
+        <p>FinStack is an open-source fintech backend starter kit built with NestJS, TypeScript and PostgreSQL. It packages the financial infrastructure I've rebuilt at several companies so teams can focus on their product: wallets, a double-entry ledger, payments through Paystack and Stripe, FX, refunds, payouts, fees, limits, reconciliation, webhooks and staff tooling.</p>
+        <ul class="project-facts mono" aria-label="Project facts">
+          <li><a href="https://github.com/Fabulouscode/finstack/releases/tag/v0.1.0" target="_blank" rel="noopener">v0.1.0 released</a></li>
+          <li><a href="https://github.com/Fabulouscode/finstack/actions/workflows/ci.yml" target="_blank" rel="noopener">CI passing</a></li>
+          <li>770 automated tests</li>
+          <li><a href="https://github.com/Fabulouscode/finstack/tree/main/docs/adr" target="_blank" rel="noopener">29 design decisions</a></li>
+        </ul>
         <ul class="principles">
           <li><strong>No floating-point money.</strong> Amounts are integers in minor units and always carry a currency.</li>
-          <li><strong>Double-entry ledger</strong> as the source of truth. Every movement balances and entries are immutable.</li>
+          <li><strong>Double-entry ledger</strong> as the source of truth. Every movement balances, entries are immutable, and the database enforces both.</li>
           <li><strong>Idempotent by default.</strong> Every money-moving endpoint takes an <code>Idempotency-Key</code>, so a retry never moves money twice.</li>
-          <li><strong>Explicit state machines</strong> for transactions, enforced in code <em>and</em> by a database trigger.</li>
-          <li><strong>Row-level locking</strong> and PostgreSQL transactions for integrity under concurrency.</li>
+          <li><strong>Payouts are never sent twice.</strong> Before any resend, the provider is asked about the payout, so a lost response can't pay out again.</li>
+          <li><strong>Correct under concurrency.</strong> Row locks, state machines enforced by the database, and velocity limits that hold when requests race, with tests that fail if a lock is removed.</li>
+          <li><strong>Reconciled daily</strong> against Paystack and Stripe, and the ledger against itself. Late webhooks settle automatically; everything else goes to a person.</li>
+          <li><strong>Secure by design.</strong> Signed webhooks with encrypted secrets and SSRF and DNS-rebinding protection, least-privilege staff roles, and an append-only audit log.</li>
         </ul>
         <ul class="chips" aria-label="Tech stack">
-          <li>NestJS</li><li>TypeScript</li><li>PostgreSQL</li><li>TypeORM</li><li>Redis</li><li>BullMQ</li><li>Docker</li><li>OpenAPI</li><li>Jest</li>
+          <li>NestJS</li><li>TypeScript</li><li>PostgreSQL</li><li>TypeORM</li><li>Redis</li><li>BullMQ</li><li>Docker</li><li>OpenAPI</li><li>Jest</li><li>Prometheus</li><li>GitHub Actions</li><li>Paystack</li><li>Stripe</li>
         </ul>
-        <a class="btn" href="https://github.com/Fabulouscode/finstack" target="_blank" rel="noopener">View FinStack on GitHub <span aria-hidden="true">↗</span></a>
+        <div class="project-actions">
+          <a class="btn" href="https://github.com/Fabulouscode/finstack" target="_blank" rel="noopener">View FinStack on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="https://github.com/Fabulouscode/finstack/tree/main/docs/adr" target="_blank" rel="noopener">Read the design decisions <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
       <div class="terminal" role="img" aria-label="Example: a transfer request retried with the same Idempotency-Key is replayed, not executed twice">
         <div class="terminal-bar"><span></span><span></span><span></span><em class="mono">finstack — zsh</em></div>
