@@ -13,6 +13,7 @@ An open-source, production-minded NestJS fintech backend starter kit: wallets, a
 ## 💼 Experience
 - **Lead Software Engineer, [EzzyCare](https://www.ezzycare.com/)** *(May 2025 – Present, part-time / remote)*: architecture across the healthcare platform; pricing, commission and payout logic; production incident ownership.
 - **Senior Software Engineer, [Mainstack](https://mainstack.com/)** *(Aug 2025 – Sep 2026)*: payments, refunds, chargebacks, settlements and reconciliation on NestJS, SQS/SNS, RabbitMQ and gRPC.
+- **Full-Stack Engineer, [pricetag.ng](https://pricetag.ng/)** *(Jan 2026 – May 2026, contract)*: backend and frontend of a multi-vendor marketplace and e-commerce platform.
 - **Backend Software Engineer, [Glover](https://www.gloverapp.co/)** *(Apr 2022 – Mar 2025)*: APIs for a gift-card platform processing 1M+ transactions a month; cut response times by 60% with Redis.
 - **Backend Software Engineer, Patricia Technologies** *(Nov 2020 – Apr 2022)*: APIs for 2M+ users; RabbitMQ microservices; GitLab CI/CD that cut deployment-related downtime by 30%.
 - **Software Engineer, Valuebeam Ltd.** *(Jan 2018 – Jan 2021)*: built iSchool, a school management platform serving 20K+ students.
